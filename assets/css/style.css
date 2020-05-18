@@ -1,0 +1,159 @@
+
+body {
+    background: #BCCE98;
+    overflow: scroll;
+}
+
+canvas {
+    top:180px;
+    left:0px;
+    background: #fff;
+    position: absolute;
+    border: grey 1px solid;
+    margin-top: 30px;
+
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 190px;
+}
+
+.container .column {
+    position: relative;
+    float: left;
+    height: 100vh;
+}
+
+.center {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.left {
+    width: 180px;
+    padding: 0 10px;
+    right: 240px;
+    margin-left: -100%;
+}
+
+.right {
+    width: 130px;
+    padding: 0 10px;
+    margin-right: -100%;
+}
+
+.footer {
+    clear: both;
+}
+
+
+
+* html .left {
+    left: 150px;
+}
+
+
+
+.container {
+    overflow: hidden;
+}
+
+.container .column {
+    padding-bottom: 1001em;
+    margin-bottom: -1000em;
+}
+
+
+*	html body {
+    overflow: hidden;
+}
+
+*	html .footer-wrapper { float: left; position: relative; width: 100%;
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: black;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+
+p	{
+    color: darkgreen;
+	font-size:large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.home{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.header, .footer {
+    font-size: large;
+    padding: 0.3em;
+    background:#BCCE98;
+}
+
+.left {
+    background: #DAE9BC;
+}
+
+.right {
+    background:#F7FDEB;
+}
+
+.center {
+    background: #fff;
+}
+
+.container .column {
+    padding-top: 1em;
+}
+
+
+.link{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+
+}
+
+
+.btn{
+    padding: 12 px;
+    background:#B6E5AE ;
+    color: black;
+	margin-right: 20px;
+    font-size: medium;
+	font-family: Sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: white;
+}
+a:hover{
+    color: black;
+}
